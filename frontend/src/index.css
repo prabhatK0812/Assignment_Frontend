@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+
+/* PrimeReact checkbox fix */
+.p-datatable .p-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.p-datatable .p-checkbox-box {
+  border-radius: 6px;
+  border: 2px solid #4b5563;
+}
+
+.p-datatable .p-checkbox-box.p-highlight {
+  background: #2563eb; /* blue-600 */
+  border-color: #2563eb;
+}
+
+/* Light mode header */
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #f3f4f6; 
+  font-weight: 600;
+  color: #374151;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Dark mode header */
+.dark .p-datatable .p-datatable-thead > tr > th {
+  background-color: #1f2937;
+  color: #e5e7eb; 
+}
+
+/* Light mode cells */
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb; 
+}
+
+/* Dark mode cells */
+.dark .p-datatable .p-datatable-tbody > tr > td {
+  border-bottom: 1px solid #374151; 
+  color: #d1d5db; 
+}
+
+
+
+
+
+
+
+/* Paginator dropdown style */
+.custom-paginator .p-dropdown {
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 0.5rem;     /* rounded-lg */
+  padding: 0.25rem 0.75rem;  /* px-3 py-1 */
+  font-size: 0.875rem;       /* text-sm */
+  box-shadow: none;
+}
+
+.custom-paginator .p-dropdown:hover {
+  border-color: #3b82f6; /* blue-500 hover */
+}
+
+.custom-paginator .p-dropdown .p-dropdown-label {
+  padding: 0.25rem 0.5rem;
+}
+
+.custom-paginator .p-dropdown .p-dropdown-trigger {
+  color: #374151; /* gray-700 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
